@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>2048 ゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>2048</h1>
+        <div class="score-container">
+            <div class="score-box">
+                スコア <br><span id="score">0</span>
+            </div>
+            <button id="restart-btn">もう一度</button>
+        </div>
+        
+        <!-- 4x4のゲーム盤面 -->
+        <div class="grid" id="grid"></div>
+        <p class="instruction">画面を上下左右にスワイプしてね！</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
